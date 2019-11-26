@@ -8,7 +8,7 @@ adminRouter.get("/", (request, response)=>
 
 adminRouter.get("/:ANo", (request, response)=>
 {
-    response.send("You searched for Admin No " + request.params.ANo);
+    response.send("You looked for Admin No " + request.params.ANo);
 });
 
 module.exports = adminRouter;
